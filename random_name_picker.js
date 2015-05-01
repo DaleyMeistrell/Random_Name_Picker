@@ -7,23 +7,12 @@
    console.log(bucket_list);*/
 
 
- /*var i = 0;
-     function eachDestination(){
-       console.log(bucket_list[i]);
-       i++; 
-     }
-    eachDestination();*/
 function eachDestination() { 
 var pick = Math.floor(Math.random() * bucket_list.length)
 var destinationPicker = bucket_list[pick];
 console.log(destinationPicker);
+document.getElementById("chosen_one").innerHTML = destinationPicker;
 }
 
-/*var pick = bucket_list[Math.floor(Math.random()*bucket_list.length)];
 
-var destinationPicker = bucket_list[Math.floor(Math.random() * bucket_list.length)];
-console.log(destinationPicker);
 
-/*var eachDestination = function() {
-	console.log(eachDestination)
-};*/
